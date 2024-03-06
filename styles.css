@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+body {
+    font-family: Inria Sans;
+    margin: 0px;
+}
+
+h1 {
+    color: #FFE8C8;
+    padding: 1rem;
+}
+
+h3 {
+    color: #DADBBF;
+    padding: 2rem;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.wrapper {
+    height: 100vh;
+
+    .website-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #4B6243;
+    }
+
+    .website-body {
+        padding: 2rem;
+        background: linear-gradient(#FFFFFF, #FFE8C8);
+        height: 100%;
+
+        .welcome {
+            display: flex;
+
+            .intro-header {
+                font-weight: bold;
+            }
+        }
+
+        .featured-dishes {
+
+            .dish {
+                .order-now {
+                    background-color: #AE5237
+                }
+            }
+        }
+    }
+
+
+}
