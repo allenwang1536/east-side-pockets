@@ -47,7 +47,7 @@ body {
                 transform: scale(1.1)
             }
 
-            @media (max-width: 400px) {
+            @media (max-width: 25rem) {
                 h3 {
                     padding: 0.5rem 0.5rem 0.5rem;
                 }
@@ -56,7 +56,7 @@ body {
         }
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 25rem) {
         .website-header {
             justify-content: center;
         }
@@ -117,7 +117,7 @@ body {
 
         }
 
-        @media (max-width: 400px) {
+        @media (max-width: 25rem) {
             .welcome {
                 flex-direction: column;
                 align-items: flex-start;
@@ -182,7 +182,7 @@ body {
                     }
                 }
 
-                @media (max-width: 400px) {
+                @media (max-width: 25rem) {
                     .pair {
                         flex-wrap: wrap;
                     }
@@ -190,7 +190,7 @@ body {
                
             }
 
-            @media (max-width: 811px) {
+            @media (max-width: 51rem) {
                 .dishes {
                     flex-wrap: wrap;
                 }
@@ -233,7 +233,7 @@ body {
             }
         }
 
-        @media (max-width: 650px) {
+        @media (max-width: 40rem) {
             .logistics {
                 flex-direction: column;
                 justify-content: center;
@@ -279,7 +279,7 @@ body {
                     margin: 0 -0.5rem 0;
                 }
 
-                @media (max-width: 600px) {
+                @media (max-width: 40rem) {
                     .google {
                         margin: 0 -0.2rem 0;
                     }
@@ -288,7 +288,7 @@ body {
         }
     }
 
-    @media (min-width: 2200px) {
+    @media (min-width: 135rem) {
         .website-body, .website-header {
             font-size: 4rem;
         }
