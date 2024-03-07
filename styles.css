@@ -274,9 +274,15 @@ body {
                 }
 
                 .google {
-                    width: 2rem;
-                    height: 2rem;
+                    width: 3%;
+                    height: 3%;
                     margin: 0 -0.5rem 0;
+                }
+
+                @media (max-width: 600px) {
+                    .google {
+                        margin: 0 -0.2rem 0;
+                    }
                 }
             }
         }
